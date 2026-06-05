@@ -42,6 +42,13 @@ _RELAY_LOGGED_IN_OVERRIDES = {
     '__relay_internal__pv__BarcelonaShouldShowFediverseM075Featuresrelayprovider': True,
 }
 
+_RELAY_FLAGS_POST_DETAIL_EXTRA = {
+    '__relay_internal__pv__BarcelonaHasPermalinkIndentationrelayprovider': False,
+    '__relay_internal__pv__BarcelonaHasPostAuthorNotifControlsrelayprovider': True,
+    '__relay_internal__pv__BarcelonaShouldShowFediverseM1Featuresrelayprovider': False,
+    '__relay_internal__pv__BarcelonaHasInlineReplyComposerrelayprovider': False,
+}
+
 def _get_payload(
         doc_id: str,
         friendly_name: str,
@@ -148,4 +155,18 @@ def get_user_payload(user_id: str, cursor_after: str = None) -> dict:
         doc_id="27545758055009868",
         friendly_name="BarcelonaProfileThreadsTabRefetchableDirectQuery",
         variables=json.dumps(variables)
+    )
+
+def get_detail_post_payload(post_id: str) -> dict:
+    variables = {
+        'postID': post_id,
+        'sort_order': 'TOP',
+        **get_relay_flags(logged_in=False),
+        **_RELAY_FLAGS_POST_DETAIL_EXTRA,
+    }
+    return _get_payload(
+        doc_id="36010704751909445",
+        friendly_name="BarcelonaPostPageDirectQuery",
+        variables=json.dumps(variables),
+        crn="comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute"
     )

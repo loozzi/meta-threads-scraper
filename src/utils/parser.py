@@ -3,18 +3,11 @@ from typing import Optional
 from src.schemas.threads import PaginationResponse, Post, SearchResponse, SelfThreadInfo, UserSearchResult
 
 
-def parse_post_detail(item: dict) -> Optional[Post]:
+def _parse_post_obj(post: dict) -> Optional[Post]:
     try:
-        node = item.get('node') or {}
-        if node.get('text_post_app_thread'):
-            thread = node['text_post_app_thread']
-        else:
-            thread = item['text_post_app_thread']
-        post = thread['thread_items'][0]['post']
         info = post['text_post_app_info']
         candidates = post['image_versions2']['candidates']
         carousel = post.get('carousel_media')
-
         user = post['user']
         self_thread = info.get('self_thread_info') or {}
 
@@ -32,7 +25,7 @@ def parse_post_detail(item: dict) -> Optional[Post]:
             image_url = None
             carousel_media = []
 
-        post_resp = Post(
+        return Post(
             post_id=post['pk'],
             code=post['code'],
             username=user['username'],
@@ -54,9 +47,21 @@ def parse_post_detail(item: dict) -> Optional[Post]:
             ),
             taken_at=post['taken_at'],
         )
-        return post_resp
-    except Exception as e:
+    except Exception:
         return None
+
+
+def parse_post_detail(item: dict) -> Optional[Post]:
+    try:
+        node = item.get('node') or {}
+        if node.get('text_post_app_thread'):
+            thread = node['text_post_app_thread']
+        else:
+            thread = item['text_post_app_thread']
+        return _parse_post_obj(thread['thread_items'][0]['post'])
+    except Exception:
+        return None
+
 
 def parse_search_response(response: dict) -> SearchResponse:
     status = response.get('status')
@@ -87,17 +92,42 @@ def parse_pagination_response(response: dict) -> PaginationResponse:
 
     posts = []
     edges = response['data']['feedData']['edges']
-    for post in edges:
-        p = parse_post_detail(post)
+    for edge in edges:
+        p = parse_post_detail(edge)
         if p is not None:
             posts.append(p)
 
     print(f"Success: {len(posts)} - Error: {len(edges) - len(posts)}")
-        
 
     return PaginationResponse(
         status=status,
         has_next_page=response['data']['feedData']['page_info']['has_next_page'],
         end_cursor=response['data']['feedData']['page_info']['end_cursor'],
+        posts=posts
+    )
+
+
+def parse_detail_pagination_response(response: dict) -> PaginationResponse:
+    status = response.get('status')
+    if status != 'ok':
+        return PaginationResponse(status=status)
+
+    posts = []
+    edges = response['data']['data']['edges']
+    for edge in edges:
+        node = edge.get('node') or {}
+        for thread_item in node.get('thread_items', []):
+            post_data = thread_item.get('post')
+            if post_data:
+                p = _parse_post_obj(post_data)
+                if p is not None:
+                    posts.append(p)
+
+    print(f"Success: {len(posts)} - Error: {len(edges) - len(posts)}")
+
+    return PaginationResponse(
+        status=status,
+        has_next_page=response['data']['data']['page_info']['has_next_page'],
+        end_cursor=response['data']['data']['page_info']['end_cursor'],
         posts=posts
     )

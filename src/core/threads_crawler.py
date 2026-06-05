@@ -4,8 +4,8 @@ from typing import Optional
 import requests as req
 
 from src.utils.const import GRAPH_API, HEADERS
-from src.utils.payload import get_feed_payload, get_user_payload, get_search_payload
-from src.utils.parser import parse_pagination_response, parse_search_response
+from src.utils.payload import get_feed_payload, get_user_payload, get_search_payload, get_detail_post_payload
+from src.utils.parser import parse_pagination_response, parse_detail_pagination_response, parse_search_response
 from src.schemas.utils import Cookies
 from src.schemas.threads import PaginationResponse, SearchResponse
 
@@ -56,3 +56,14 @@ class ThreadsCrawler():
         response = self._make_request(payload)
     
         return parse_search_response(response.json())
+    
+    def get_detail_post(self, post_id: str) -> PaginationResponse:
+        payload = get_detail_post_payload(post_id)
+        custom_headers = {
+            "x-root-field-name": "xdt_api__v1__text_feed__media_id__replies__connection",
+            "x-fb-friendly-name": "BarcelonaPostPageDirectQuery"
+        }
+
+        response = self._make_request(payload, headers=custom_headers)
+
+        return parse_detail_pagination_response(response.json())
