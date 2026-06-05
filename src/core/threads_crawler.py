@@ -5,7 +5,9 @@ import requests as req
 
 from src.utils.const import GRAPH_API, HEADERS
 from src.utils.payload import get_feed_payload, get_user_payload, get_search_payload
+from src.utils.parser import parse_pagination_response, parse_search_response
 from src.schemas.utils import Cookies
+from src.schemas.threads import PaginationResponse, SearchResponse
 
 
 
@@ -40,10 +42,17 @@ class ThreadsCrawler():
         )
 
     # Crawler
-    def get_news_feed(self, limit: int = 10) -> dict:
+    def get_news_feed(self, limit: int = 10) -> PaginationResponse:
         is_logged_in = self.__cookies is not None
         payload = get_feed_payload(limit=limit, logged_in=is_logged_in)
-        
+
         response = self._make_request(payload, use_cookies=True)
 
-        return response
+        return parse_pagination_response(response.json())
+
+    def search_by_keyword(self, keyword: str, limit: int = 10) -> SearchResponse:
+        payload = get_search_payload(keyword, limit)
+
+        response = self._make_request(payload)
+    
+        return parse_search_response(response.json())

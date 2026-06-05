@@ -1,0 +1,1056 @@
+{
+  "data": {
+    "feedData": {
+      "edges": [
+        {
+          "text_post_app_thread": {
+            "id": "3912361651450546608",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912361651450546608_63239347656",
+                  "logging_info_token": null,
+                  "pk": "3912361651450546608",
+                  "user": {
+                    "pk": "63239347656",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-19/689153125_17968082691107657_2278735166512487015_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=pNDnecBE0owQ7kNvwHf1o7p&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af8tmbPvwiC5Z5d62Ub07hPsT4Wb9nX5Lx9b2N7ybazuGw&oe=6A2872B3&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "lovebunnymother",
+                    "id": "63239347656",
+                    "interop_messaging_user_fbid": "17903656932107657",
+                    "full_name": "Em",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": false,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:18118062517773957",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 1,
+                    "repost_count": 0,
+                    "quote_count": 0,
+                    "reshare_count": null,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "Men can be so nice and loving and the next day you don't exist to them. No wonder women are done dating.",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": {
+                      "display_name": "Dating Threads",
+                      "id": "18371921593073917",
+                      "is_community": false,
+                      "tag_cluster_name": "Dating Threads"
+                    },
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "Men can be so nice and loving and the next day you don't exist to them. No wonder women are done dating.",
+                    "pk": "18118062520773957",
+                    "has_translation": true
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZLgDGDkgmw",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "18118062517773957",
+                  "like_count": 8,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": {
+                    "overlay_layout": 1,
+                    "overlay_type": "REPLY_APPROVAL_TOMBSTONE",
+                    "session_id": null,
+                    "sub_category": "TOMBSTONE",
+                    "buttons": [],
+                    "description": "B\u1ea1n kh\u00f4ng xem \u0111\u01b0\u1ee3c n\u1ed9i dung n\u00e0y"
+                  },
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780609874,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMzYxNjUxNDUwNTQ2NjA4In0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912361651450546608"
+          }
+        },
+        {
+          "text_post_app_thread": {
+            "id": "3912142065425980698",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912142065425980698_63093944076",
+                  "logging_info_token": null,
+                  "pk": "3912142065425980698",
+                  "user": {
+                    "pk": "63093944076",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-19/571557559_17936860140096077_1230868489917371161_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=WdzuUtbXSBwQ7kNvwFVuD89&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af_B1SiSaRr4Hf0GnminzX6cJxnusIOKPlM3fxkclZUDGw&oe=6A2872B8&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "thelovelyyymc",
+                    "id": "63093944076",
+                    "interop_messaging_user_fbid": "17912529234096077",
+                    "full_name": "Morgan Clem",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": false,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:17975248724881811",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 0,
+                    "repost_count": 1,
+                    "quote_count": 0,
+                    "reshare_count": null,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "i'm alive, i'm breathing, i'm blessed & i'm thankful",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": null,
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "i'm alive, i'm breathing, i'm blessed & i'm thankful",
+                    "pk": "17975248727881811",
+                    "has_translation": null
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZKuHsolB0a",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "17975248724881811",
+                  "like_count": 12,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": null,
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780583697,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMTQyMDY1NDI1OTgwNjk4In0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912142065425980698"
+          }
+        },
+        {
+          "text_post_app_thread": {
+            "id": "3912100454884877735",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912100454884877735_63443769572",
+                  "logging_info_token": null,
+                  "pk": "3912100454884877735",
+                  "user": {
+                    "pk": "63443769572",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.2885-19/357748961_3541906866098558_7081447193371607890_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MjIuYzIifQ&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=0p6UKnDM7-cQ7kNvwHpukGw&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af9yVjXCN0A5wDcWdPMvrpAIcGsy1C3FR3mXM7uG5RfWbA&oe=6A2857E9&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "thealphathought_",
+                    "id": "63443769572",
+                    "interop_messaging_user_fbid": "17903753502113573",
+                    "full_name": "The Dividend Dominator \ud83c\udde8\ud83c\udde6",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": false,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:18011251745712292",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 1,
+                    "repost_count": 0,
+                    "quote_count": 0,
+                    "reshare_count": null,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "What nobody told me at 23:\n\nThe first $50k feels impossible.\n\nThe second $50k feels hard.\n\nThe third feels like the market is doing it for you.\n\nBy $200k you stop checking the account every day.\n\nBy $500k you understand why wealthy people seem unbothered.",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": null,
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "What nobody told me at 23:\n\nThe first $50k feels impossible.\n\nThe second $50k feels hard.\n\nThe third feels like the market is doing it for you.\n\nBy $200k you stop checking the account every day.\n\nBy $500k you understand why wealthy people seem unbothered.",
+                    "pk": "18011251748712292",
+                    "has_translation": true
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZKkqLzDqWn",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "18011251745712292",
+                  "like_count": 6,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": null,
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780578737,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMTAwNDU0ODg0ODc3NzM1In0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912100454884877735"
+          }
+        },
+        {
+          "text_post_app_thread": {
+            "id": "3912150591833658858",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912150591833658858_63093944076",
+                  "logging_info_token": null,
+                  "pk": "3912150591833658858",
+                  "user": {
+                    "pk": "63093944076",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-19/571557559_17936860140096077_1230868489917371161_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=WdzuUtbXSBwQ7kNvwFVuD89&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af_B1SiSaRr4Hf0GnminzX6cJxnusIOKPlM3fxkclZUDGw&oe=6A2872B8&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "thelovelyyymc",
+                    "id": "63093944076",
+                    "interop_messaging_user_fbid": "17912529234096077",
+                    "full_name": "Morgan Clem",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": false,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:18092901619993605",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 0,
+                    "repost_count": 10,
+                    "quote_count": 1,
+                    "reshare_count": null,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "she's such a sweet soul & she deserves all best life can give her\n\n- she is me",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": null,
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "she's such a sweet soul & she deserves all best life can give her\n\n- she is me",
+                    "pk": "18092901622993605",
+                    "has_translation": true
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZKwDxeFFXq",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "18092901619993605",
+                  "like_count": 35,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": null,
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780584714,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMTUwNTkxODMzNjU4ODU4In0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912150591833658858"
+          }
+        },
+        {
+          "text_post_app_thread": {
+            "id": "3912319478545912289",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912319478545912289_63472427250",
+                  "logging_info_token": null,
+                  "pk": "3912319478545912289",
+                  "user": {
+                    "pk": "63472427250",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.2885-19/494475045_17906982393115251_1752056422965969769_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=4EjsBbCZxNsQ7kNvwHPsf1i&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af8WeoGgaWdVz-k3z919rg7tK0VpFo6c-uDs7T-fa_f6WA&oe=6A286876&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "late.july",
+                    "id": "63472427250",
+                    "interop_messaging_user_fbid": "17904149262115251",
+                    "full_name": "Nicole Simone",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": true,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:18207885328338166",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 264,
+                    "repost_count": 205,
+                    "quote_count": 9,
+                    "reshare_count": 6,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "Hunter Biden was a toddler when he survived a fatal car accident that claimed the lives of his mother and baby sister. And then everything that happened afterward\u2026 his origin story is remarkable.",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": null,
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "Hunter Biden was a toddler when he survived a fatal car accident that claimed the lives of his mother and baby sister. And then everything that happened afterward\u2026 his origin story is remarkable.",
+                    "pk": "18207885331338166",
+                    "has_translation": true
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZLWdZekhHh",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "18207885328338166",
+                  "like_count": 13637,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": null,
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780604847,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMzE5NDc4NTQ1OTEyMjg5In0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912319478545912289"
+          }
+        },
+        {
+          "text_post_app_thread": {
+            "id": "3912082704867190273",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912082704867190273_63045686972",
+                  "logging_info_token": null,
+                  "pk": "3912082704867190273",
+                  "user": {
+                    "pk": "63045686972",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-19/696522022_18183042208375854_5864031486189427958_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDUzLmMyIn0&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=0RYBHOSswAAQ7kNvwH7EhI7&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af8ZlBJownOiV2YOW4Y3UQfwbY3Nt294PsMZf3an8uJQbQ&oe=6A286FB1&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "f90.vic",
+                    "id": "63045686972",
+                    "interop_messaging_user_fbid": "17907382311102973",
+                    "full_name": "F90 | Vic",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": true,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:18085219871421458",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 0,
+                    "repost_count": 2,
+                    "quote_count": 0,
+                    "reshare_count": 1,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "Your sign to buy that bmw",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": null,
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "Your sign to buy that bmw",
+                    "pk": "18085219877421458",
+                    "has_translation": true
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZKgn4zjuYB",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "18085219871421458",
+                  "like_count": 11,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": null,
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780576621,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMDgyNzA0ODY3MTkwMjczIn0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912082704867190273"
+          }
+        },
+        {
+          "text_post_app_thread": {
+            "id": "3912059311548169544",
+            "thread_items": [
+              {
+                "parent_post_unavailable_reason": null,
+                "post": {
+                  "id": "3912059311548169544_63208959790",
+                  "logging_info_token": null,
+                  "pk": "3912059311548169544",
+                  "user": {
+                    "pk": "63208959790",
+                    "profile_pic_url": "https://scontent-icn2-1.cdninstagram.com/v/t51.2885-19/397050300_652736673415480_2776576306601788118_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45NTQuYzIifQ&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGD7Mj51MKb95bErIxD8l2fMuf0yCJPO2orKv_RSOzXCKFtAomjMG3DLB-USGR8ACw&_nc_ohc=YQ8xote6xUIQ7kNvwEfo44c&_nc_gid=5akMSjuVhDu772wmPY-NEg&edm=ABHA7IMBAAAA&ccb=7-5&oh=00_Af8jwpYK8BIibWIlUq8lERrHgGYtisqMEJhnNofSjBW4-A&oe=6A285B57&_nc_sid=b2c151",
+                    "friendship_status": null,
+                    "username": "brian_mciver_88",
+                    "id": "63208959790",
+                    "interop_messaging_user_fbid": "17902896051111791",
+                    "full_name": "Brian McIver",
+                    "transparency_label": null,
+                    "transparency_product": null,
+                    "transparency_product_enabled": false,
+                    "is_verified": false,
+                    "has_onboarded_to_text_post_app": true,
+                    "text_post_app_is_private": false
+                  },
+                  "text_post_app_info": {
+                    "show_header_follow": false,
+                    "id": "XDTTextPostAppMediaInfo:18155116309476024",
+                    "is_ghost_post": false,
+                    "self_thread_info": null,
+                    "is_spoiler_media": false,
+                    "is_markup": false,
+                    "ghost_post_exp_time_ms": null,
+                    "ghost_post_approximate_like_count_str": null,
+                    "ghost_post_reply_type": null,
+                    "ghost_post_approximate_reply_count_str": null,
+                    "direct_reply_count": 6,
+                    "repost_count": 2,
+                    "quote_count": 0,
+                    "reshare_count": null,
+                    "attachment_tombstone_info": null,
+                    "custom_feed_preview_info": null,
+                    "platform_podcast_episode_info": null,
+                    "platform_podcast_info": null,
+                    "link_preview_attachment": null,
+                    "link_preview_response": null,
+                    "linked_inline_media": null,
+                    "snippet_attachment_info": null,
+                    "game_score_share_info": null,
+                    "public_view_count_card_attachment_info": null,
+                    "special_effects_enabled_str": "",
+                    "algo_tweaks_info": null,
+                    "text_fragments": {
+                      "fragments": [
+                        {
+                          "fragment_type": "plaintext",
+                          "link_fragment": null,
+                          "mention_fragment": null,
+                          "plaintext": "Szoboszlai wins liverpool player of the season award",
+                          "inline_sticker_fragment": null,
+                          "linkified_web_url": null,
+                          "linkified_in_app_url": null,
+                          "styling_info": null
+                        }
+                      ]
+                    },
+                    "can_private_reply": false,
+                    "can_reply": false,
+                    "share_info": {
+                      "quoted_attachment_author_attribution_allowed": true,
+                      "quoted_attachment_post_unavailable": false,
+                      "quoted_attachment_post": null,
+                      "quoted_post": null,
+                      "reposted_post": null
+                    },
+                    "is_reply": false,
+                    "reply_to_author": null,
+                    "reply_approval_info": {
+                      "pending_reply_status": null,
+                      "pending_reply_count": null,
+                      "ignored_reply_count": null
+                    },
+                    "hush_info": null,
+                    "system_status_message": null,
+                    "reply_control": "everyone",
+                    "private_reply_partner": null,
+                    "self_thread_count": 0,
+                    "tag_header": null,
+                    "root_post_author": null,
+                    "is_liked_by_root_author": false,
+                    "pinned_post_info": null,
+                    "related_trends_info": null,
+                    "is_post_unavailable": false,
+                    "post_unavailable_reason": null,
+                    "post_tombstone_info": null
+                  },
+                  "is_paid_partnership": null,
+                  "audio": null,
+                  "caption": {
+                    "text": "Szoboszlai wins liverpool player of the season award",
+                    "pk": "18155116312476024",
+                    "has_translation": true
+                  },
+                  "caption_is_edited": false,
+                  "transcription_data": null,
+                  "carousel_media": null,
+                  "code": "DZKbTeFFn1I",
+                  "image_versions2": {
+                    "candidates": []
+                  },
+                  "original_height": 612,
+                  "original_width": 612,
+                  "accessibility_caption": null,
+                  "usertags": null,
+                  "video_versions": null,
+                  "has_audio": null,
+                  "media_type": 19,
+                  "caption_add_on": null,
+                  "text_app_audio_usage_availability_infos": null,
+                  "fbid": "18155116309476024",
+                  "like_count": 108,
+                  "giphy_media_info": null,
+                  "prototyping_only_glimmer_post_info": null,
+                  "original_lang_for_translations": null,
+                  "detected_language": null,
+                  "media_overlay_info": null,
+                  "metaPlace": null,
+                  "meta_place": null,
+                  "gen_ai_detection_method": null,
+                  "taken_at": 1780573832,
+                  "organic_tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjp0cnVlLCJ1dWlkIjoiM2RkYzI2YjExYTZlNGM0NGEwMDE1YWMzMjllYjFiMWIzOTEyMDU5MzExNTQ4MTY5NTQ0In0sInNpZ25hdHVyZSI6IiJ9",
+                  "__token": null,
+                  "canonical_url": null,
+                  "seo_ocr_for_related_post": null,
+                  "seo_transcript_for_related_post": null,
+                  "like_and_view_counts_disabled": false
+                }
+              }
+            ]
+          },
+          "cursor": "",
+          "node": {
+            "__typename": "XDTThread",
+            "id": "3912059311548169544"
+          }
+        }
+      ],
+      "page_info": {
+        "end_cursor": "GvYTgpj3uMafwcpsqK770dfclstsssL06LrI4MpstPSgieWe3MpstviK0Z2mrstswoD3qJ6H2spszpb1sN6oycps1KCHoJWrw8ps4KaQubCMwMtskPWz0fDNtspsoJGuudmeyMpsrqnwuOzancxstuu2scKftMpswOOAiP_y1MpswseQ6cv1rMts1Nei4YuP4Mps1tvzoNuimcxs4P_ZsaG28Mps6oek0bDW5MpsJv6B7PDSZxQUWQgYABoIOgYZDAA=",
+        "has_next_page": true,
+        "has_previous_page": false,
+        "start_cursor": null
+      }
+    }
+  },
+  "extensions": {
+    "is_final": true,
+    "server_metadata": {
+      "request_start_time_ms": 1780650704134,
+      "time_at_flush_ms": 1780650705034
+    }
+  },
+  "status": "ok"
+}
