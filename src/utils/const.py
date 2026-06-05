@@ -1,0 +1,28 @@
+GRAPH_API = 'https://www.threads.com/graphql/query'
+
+HEADERS = {
+    "accept": "*/*",
+    "accept-language": "vi,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+    "content-type": "application/x-www-form-urlencoded",
+    "dnt": "1",
+    "origin": "https://www.threads.com",
+    "priority": "u=1, i",
+    "referer": "https://www.threads.com/",
+    "sec-ch-prefers-color-scheme": "dark",
+    "sec-ch-ua": '"Chromium";v="148", "Microsoft Edge";v="148", "Not/A)Brand";v="99"',
+    "sec-ch-ua-full-version-list": '"Chromium";v="148.0.7778.180", "Microsoft Edge";v="148.0.3967.83", "Not/A)Brand";v="99.0.0.0"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-model": '""',
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-ch-ua-platform-version": '"15.0.0"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+    "x-asbd-id": "359341",
+    # "x-bloks-version-id": "2954ff932ba165c74bcc10cc4989cb767b1d0481bfc60d7f1a95a23fcdaca14f",
+    "x-fb-friendly-name": "BarcelonaFeedPaginationDirectQuery",
+    "x-ig-app-id": "238260118697367",
+    "x-root-field-name": "xdt_api__v1__feed__text_post_app_timeline__connection",
+    # "x-web-session-id": "2eotfs:da526m:q89kjm",
+}
