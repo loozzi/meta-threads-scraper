@@ -89,7 +89,11 @@ class ThreadsCrawler:
         return parse_search_response(response.json())
 
     def get_detail_post(
-        self, post_id: str, limit: int = 10, cursor_after: Optional[str] = None
+        self,
+        post_id: str,
+        limit: int = 10,
+        cursor_after: Optional[str] = None,
+        use_cookies: bool = False,
     ) -> PaginationResponse:
         payload = get_detail_post_payload(post_id, limit, cursor_after)
         custom_headers = {
@@ -97,6 +101,8 @@ class ThreadsCrawler:
             "x-fb-friendly-name": "BarcelonaPostPageDirectQuery",
         }
 
-        response = self._make_request(payload, headers=custom_headers)
+        response = self._make_request(
+            payload, headers=custom_headers, use_cookies=use_cookies
+        )
 
         return parse_detail_pagination_response(response.json())
