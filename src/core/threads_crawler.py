@@ -111,7 +111,7 @@ class ThreadsCrawler:
 
         return parse_detail_pagination_response(response.json())
 
-    def get_user_info(self, user_id: str, cursor_after: Optional[str] = None, use_cookies: bool = False) -> dict:
+    def get_user_info(self, user_id: str, cursor_after: Optional[str] = None, use_cookies: bool = False) -> PaginationResponse:
         payload = get_user_payload(user_id, cursor_after)
 
         response = self._make_request(payload, use_cookies=use_cookies)
