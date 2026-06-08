@@ -180,3 +180,16 @@ def get_detail_post_payload(
         variables=json.dumps(variables),
         crn="comet.barcelonawebloggedout.BarcelonaLoggedOutFeedColumnRoute",
     )
+
+
+def get_user_id_payload(username: str, lsd: str) -> dict: 
+    return {
+        "__a": "1",
+        "__comet_req": "122",
+        "__user": "0",
+        "dpr": "1",
+        "jazoest": "22300",
+        "lsd": lsd,
+        "route_urls[0]": f"/@{username}/",
+        "routing_namespace": "barcelona_web"
+        }

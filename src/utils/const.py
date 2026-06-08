@@ -1,4 +1,5 @@
 GRAPH_API = 'https://www.threads.com/graphql/query'
+GRAPH_API_2 = 'https://www.threads.com/ajax/bulk-route-definitions'
 
 HEADERS = {
     "accept": "*/*",

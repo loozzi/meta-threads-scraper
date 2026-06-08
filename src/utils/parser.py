@@ -158,3 +158,21 @@ def parse_user_detail_pagination_response(response: dict) -> PaginationResponse:
         posts=posts
     )
     
+def parse_user_id(response: dict) -> Optional[str]:
+    try:
+        payloads = response["payload"]["payloads"]
+        for route_data in payloads.values():
+            user_id = (
+                route_data
+                .get("result", {})
+                .get("exports", {})
+                .get("rootView", {})
+                .get("props", {})
+                .get("user_id")
+            )
+            if user_id:
+                return user_id
+    except (KeyError, AttributeError):
+        return None
+
+    return None

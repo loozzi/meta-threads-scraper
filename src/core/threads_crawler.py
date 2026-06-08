@@ -5,18 +5,20 @@ import requests as req
 
 from src.schemas.threads import PaginationResponse, SearchResponse
 from src.schemas.utils import Cookies
-from src.utils.const import GRAPH_API, HEADERS
+from src.utils.const import GRAPH_API, GRAPH_API_2, HEADERS
 from src.utils.parser import (
     parse_detail_pagination_response,
     parse_pagination_response,
     parse_search_response,
-    parse_user_detail_pagination_response
+    parse_user_detail_pagination_response, 
+    parse_user_id
 )
 from src.utils.payload import (
     get_detail_post_payload,
     get_feed_payload,
     get_search_payload,
     get_user_payload,
+    get_user_id_payload
 )
 
 
@@ -48,10 +50,11 @@ class ThreadsCrawler:
             )
 
     def _make_request(
-        self, payload: dict, headers: Optional[dict] = {}, use_cookies: bool = False
+        self, payload: dict, headers: Optional[dict] = {}, use_cookies: bool = False,
+        api: str = GRAPH_API
     ) -> req.Response:
         response = self.__session.post(
-            GRAPH_API,
+            api,
             data=payload,
             cookies=self.__cookies if use_cookies else None,
             headers={**self.__headers, **headers},
@@ -63,8 +66,8 @@ class ThreadsCrawler:
             print(f"Response: {response.text}")
             # response.raise_for_status()
 
-        if response.json().get("status", "fail") == "fail":
-            print(f"API returned failure status: {response.json()}")
+        # if response.json().get("status", "fail") == "fail":
+        #     print(f"API returned failure status: {response.json()}")
             # raise Exception("API request failed")
 
         return response
@@ -114,3 +117,27 @@ class ThreadsCrawler:
         response = self._make_request(payload, use_cookies=use_cookies)
 
         return parse_user_detail_pagination_response(response.json())
+    
+    def get_user_id(self, username: str) -> Optional[str]:
+        lsd = "AdSiTte7DwNXZRiQHca25pQVNOI"
+        payload = get_user_id_payload(username, lsd)
+        custom_headers = {
+            "X-FB-LSD": lsd,
+            "Origin": "https://www.threads.com",
+            "Connection": "keep-alive",
+
+        }
+        try:
+            response = req.post(
+                GRAPH_API_2,
+                data=payload, 
+                headers={
+                    **self.__headers,
+                    **custom_headers
+                },
+                verify=False,
+            )
+
+            return parse_user_id(json.loads(response.text[9:]))
+        except:
+            return None 
