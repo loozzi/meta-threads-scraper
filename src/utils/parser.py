@@ -131,3 +131,30 @@ def parse_detail_pagination_response(response: dict) -> PaginationResponse:
         end_cursor=response['data']['data']['page_info']['end_cursor'],
         posts=posts
     )
+
+def parse_user_detail_pagination_response(response: dict) -> PaginationResponse:
+    status = response.get('status')
+
+    if status != 'ok':
+        return PaginationResponse(status=status)
+
+    posts = []
+    edges = response['data']['mediaData']['edges']
+    for edge in edges:
+        node = edge.get('node') or {}
+        for thread_item in node.get('thread_items', []):
+            post_data = thread_item.get('post')
+            if post_data:
+                p = _parse_post_obj(post_data)
+                if p is not None:
+                    posts.append(p)
+
+    print(f"Success: {len(posts)} - Error: {len(edges) - len(posts)}")
+
+    return PaginationResponse(
+        status=status,
+        has_next_page=response['data']['mediaData']['page_info']['has_next_page'],
+        end_cursor=response['data']['mediaData']['page_info']['end_cursor'],
+        posts=posts
+    )
+    

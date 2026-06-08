@@ -10,6 +10,7 @@ from src.utils.parser import (
     parse_detail_pagination_response,
     parse_pagination_response,
     parse_search_response,
+    parse_user_detail_pagination_response
 )
 from src.utils.payload import (
     get_detail_post_payload,
@@ -54,7 +55,7 @@ class ThreadsCrawler:
             data=payload,
             cookies=self.__cookies if use_cookies else None,
             headers={**self.__headers, **headers},
-            # verify=False,
+            verify=False,
         )
 
         if response.status_code != 200:
@@ -106,3 +107,10 @@ class ThreadsCrawler:
         )
 
         return parse_detail_pagination_response(response.json())
+
+    def get_user_info(self, user_id: str, cursor_after: Optional[str] = None, use_cookies: bool = False) -> dict:
+        payload = get_user_payload(user_id, cursor_after)
+
+        response = self._make_request(payload, use_cookies=use_cookies)
+
+        return parse_user_detail_pagination_response(response.json())

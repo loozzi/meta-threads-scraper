@@ -153,6 +153,7 @@ def get_user_payload(user_id: str, cursor_after: str = None) -> dict:
         "first": 11,
         "last": None,
         "userID": user_id,
+        "__relay_internal__pv__BarcelonaHasProfileSelfReplyContextrelayprovider": False,
         **get_relay_flags(logged_in=False),
     }
     return _get_payload(
